@@ -49,7 +49,8 @@ export const INCIDENT_POOL = [
 ]
 
 // ───── OpenRouter AI Client ─────
-const OR_KEY = process.env.OPENROUTER_KEY || ''const OR_URL = 'https://openrouter.ai/api/v1/chat/completions'
+const OR_KEY = process.env.OPENROUTER_KEY || ''
+const OR_URL = 'https://openrouter.ai/api/v1/chat/completions'
 const OR_MODELS = [
   'anthropic/claude-3.5-sonnet',
   'anthropic/claude-3-haiku',
